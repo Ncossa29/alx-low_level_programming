@@ -3,8 +3,9 @@
 #include <stdio.h>
 /**
  * main -entry point
- * Description: 'code print positive or negative'
- * return: 0 (success)
+ * Description: 'random number input, code will
+ * show is positive or negative
+ * Return: always 0 (success)
  */
 int main(void)
 {
@@ -13,10 +14,10 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n == 0)
-		printf(" is zero \n");
+		printf("%i is zero \n", n);
 	else if (n < 0)
-		printf(" is negative \n");
+		printf("%i is negative \n", n);
 	else
-		printf(" is positive \n");
+		printf("%i is positive \n", n);
 	return (0);
 }
