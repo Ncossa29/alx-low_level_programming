@@ -1,0 +1,17 @@
+#include <stdio.h>
+/**
+ * main -Entry point
+ * Description: output a up to z
+ * Return: Always 0 (success)
+ */
+int main(void)
+{
+	char x;
+
+	for (int x = 'a'; x <= 'z'; x++)
+		putchar(x);
+
+	putchar('\n');
+
+	return (0);
+}
