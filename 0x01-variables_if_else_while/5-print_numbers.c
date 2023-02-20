@@ -1,17 +1,19 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - Entry point
  * description: print 0-9
- * Return always 0
+ * Return: always 0
  */
 
 int main(void)
 {
-	int n;
+	int i = 0;
 
-	if (n = 0; n < 10; n++)
-		printf("%d", n);
-
+	while (i < 10)
+	{
+		printf("%d", i);
+		i++;
+	}
 	printf("\n");
-		return (0);
+	return (0);
 }
