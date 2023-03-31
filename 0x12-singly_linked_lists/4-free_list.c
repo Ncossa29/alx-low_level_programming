@@ -2,11 +2,10 @@
 #include "lists.h"
 
 /**
- * void free_list(list_t *head) - prototype
- * @head: list_t to be freed
+ * free_list - frees a linked list
+ * @head: list_t list to be freed
  */
-
-void free_list(list_t *head);
+void free_list(list_t *head)
 {
 	list_t *temp;
 
