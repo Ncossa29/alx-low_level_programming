@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <lists.h>
+#include <stdlib.h>
+#include "list.h"
 
 /**
  * void free_list(list_t *head) - prototype
