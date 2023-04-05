@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_nodeint - 
+ * add_nodeint - prototype
  * discription - adds a new node at the beginning the linked list
  * @head: pointer to the first node in the list
  * @n: data to to be inserted on new node
