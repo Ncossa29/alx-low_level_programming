@@ -3,7 +3,7 @@
 /**
  * _strlen_recursion - funtion prototype
  * @s: input
- *
+ * Return: n variable
  */
 
 int _strlen_recursion(char *s)
