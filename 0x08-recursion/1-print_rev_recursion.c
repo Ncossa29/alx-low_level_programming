@@ -3,7 +3,6 @@
 /**
  * _print_rev_recursion - function prototype
  * @s - input
- * Return - 0 Success
  */
 
 void _print_rev_recursion(char *s)
@@ -13,5 +12,4 @@ void _print_rev_recursion(char *s)
 		_print_rev_recursion(s + 1);
 		_putchar(*s);
 	}
-	return(0);
 }
