@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- * _real_sqrt_recursion - find root of a number
+ * _real_sqrt_recursion: find root of a number
  * @n: the variable
  * @x: iterator
  *
