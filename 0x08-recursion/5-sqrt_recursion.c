@@ -4,7 +4,10 @@
  * _real_sqrt_recursion - find root of a number
  * @n: the variable
  * @x: iterator
- * Retun: results of root
+ *
+ * @n: return value
+ * _sqrt_recursion - outputs natural root of number
+ * Return: results of root
  */
 
 int real_sqrt_recursion(int n, int x)
