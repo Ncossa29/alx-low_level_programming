@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- * _puts_recrursion - funtion prototype
+ * _puts_recursion - funtion prototype
  * @s: the input
  * Return: 0 Sucess
  */
@@ -9,7 +9,7 @@
 void _puts_recursion(char *s)
 {
 
-	if( *s )
+	if (*s)
 
 	{
 		_putchar(*s);
