@@ -2,7 +2,7 @@
 
 /**
  * _print_rev_recursion - function prototype
- * @s - input
+ * @s: input
  */
 
 void _print_rev_recursion(char *s)
