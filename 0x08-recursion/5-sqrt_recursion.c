@@ -1,12 +1,14 @@
 #include"main.h"
 
 /**
- * _real_sqrt_recursion: find root of a number
+ * _real_sqrt_recursion - function1
+ * descrption: find root of a number
  * @n: the variable
  * @x: iterator
  *
  * @n: return value
- * _sqrt_recursion - outputs natural root of number
+ * _sqrt_recursion - function
+ * descriprtion: outputs natural root of number
  * Return: results of root
  */
 
