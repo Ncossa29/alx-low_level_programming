@@ -7,7 +7,8 @@
  * @x: iterator
  * Return: output 1 if n is prime 0 if not
  *
- * is_prime_number - state if number n is prime
+ * is_prime_number - function prototype
+ * descrption: state if number n is prime
  */
 
 int real_prime(int n, int x)
@@ -25,5 +26,5 @@ int is_prime_number(int n)
 	if (n <= 1)
 		return (0);
 
-	return (real_prime(n, n-1));
+	return (real_prime(n, n - 1));
 }
