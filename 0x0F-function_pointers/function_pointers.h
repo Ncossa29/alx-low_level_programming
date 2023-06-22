@@ -10,5 +10,6 @@ int op_div(int a, int b);
 int op_mod(int a, int b);
 int (*get_op_func(char *s))(int, int);
 int int_index(int *array, int size, int (*cmp)(int));
+_putchar(char c);
 
 #endif
