@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
- * array_iterator - 
+ * array_iterator - prototype
  * @array:the array
+ * prints each array elem on a newl
  * @size: how many elements to print
  * @action: pointer to print in regular or hex
  * Return: void
