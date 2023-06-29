@@ -9,6 +9,8 @@
  * or NULL (Error)
  */
 
+int count_word(char *s);
+
 char **strtow(char *str)
 {
 	char **matrix, *tmp;
