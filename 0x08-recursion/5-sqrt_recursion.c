@@ -2,13 +2,13 @@
 
 /**
  * _real_sqrt_recursion - function1
- * descrption: find root of a number
+ * description: find root of a number
  * @n: the variable
  * @x: iterator
  *
  * @n: return value
  * _sqrt_recursion - function
- * descriprtion: outputs natural root of number
+ * description: outputs natural root of number
  * Return: results of root
  */
 
