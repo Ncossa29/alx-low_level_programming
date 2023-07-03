@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 		exit(2);
 	}
 
-	arr = (char *)main;
+	arry = (char *)main;
 
 	for (n = 0; n < bytes; n++)
 	{
