@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * exp - function that calculates ther power
+ * expo - function that calculates ther power
  * @base: base of the exponent
  * @power: power of the exponent
  * Return: value of the exponent
  */
-unsigned long int exp(unsigned int base, unsigned int power)
+unsigned long int expo(unsigned int base, unsigned int power)
 {
 	unsigned long int m;
 	unsigned int a;
@@ -28,7 +28,7 @@ void print_binary(unsigned long int n)
 	char flag;
 
 	flag = 0;
-	d = exp(2, sizeof(unsigned long int) * 8 - 1);
+	d = expo(2, sizeof(unsigned long int) * 8 - 1);
 	while (d != 0)
 	{
 		step = n & d;
