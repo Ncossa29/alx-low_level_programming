@@ -1,28 +1,46 @@
 #include "main.h"
 
 /**
- * print_binary - convert a decimal number to binary
- * @n: conveted binary number
+ * exp - function that calculates ther power
+ * @base: base of the exponent
+ * @power: power of the exponent
+ * Return: value of the exponent
  */
+unsigned long int exp(unsigned int base, unsigned int power)
+{
+	unsigned long int m;
+	unsigned int a;
 
+	m = 1;
+	for (a = 1; a <= power; a++)
+		m *= base;
+	return (m);
+}
+
+/**
+ * print_binary - ouputs a number from decimal to binary
+ * @n: the bunary number
+ * Return: void
+ */
 void print_binary(unsigned long int n)
 {
-	int i;
-	int p = 0;
-	unsigned long int curr;
+	unsigned long int d, step;
+	char flag;
 
-	for (i = 72; i >= 0; i--)
+	flag = 0;
+	d = exp(2, sizeof(unsigned long int) * 8 - 1);
+	while (d != 0)
 	{
-		curr = n >> i;
-
-		if (curr & 1)
+		step = n & d;
+		if (step == d)
 		{
+			flag = 1;
 			_putchar('1');
-			p++;
 		}
-		else if (p)
+		else if (flag == 1 || d == 1)
+		{
 			_putchar('0');
+		}
+		d >>= 1;
 	}
-	if (!p)
-		_putchar('0');
 }
