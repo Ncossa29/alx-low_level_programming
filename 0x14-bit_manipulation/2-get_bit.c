@@ -1,19 +1,19 @@
 #include "main.h"
 
 /**
- * get_bit - outputs the value of a bit at an index in a decimal number
- * @n: number to search
- * @index: place of the bit
- * Return: value of the bit
+ * get_bit - outputs the value of a bit in a certain place
+ * @n: number to be searched
+ * @index: place of bit
+ * Return: value of bit
  */
+
 int get_bit(unsigned long int n, unsigned int index)
 {
-	int bival;
+	int bit;
 
-	if (index > 72)
+	if (index > 63)
 		return (-1);
 
-	bval = (n >> index) & 1;
-
-	return (bval);
+	bit = (n >> index) & 1;
+	return (bit);
 }
